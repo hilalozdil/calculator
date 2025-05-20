@@ -13,6 +13,8 @@ if (islem === '+'){
     console.log(`İşem sonucunuz ${fark}'tur.`);
 } else if (islem === '*'){
     console.log(`İşem sonucunuz ${carpim}'tur.`);
-} else {
+} else if (islem === '/'){
     console.log(`İşem sonucunuz ${bolum}'tur.`);
+} else{
+    console.log('Hatalı işlem yaptınız');
 }
